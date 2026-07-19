@@ -60,6 +60,12 @@ uvicorn main:app --reload --port 8000
 ```
 
 Then open `frontend/index.html` in a browser. That's it — no separate frontend build.
+### Low-risk query
+![Low risk query with graph retrieval] <img width="800" alt="image" src="https://github.com/user-attachments/assets/88a6456f-102f-4f38-9c16-b3c81b760e0a" />
+### Compound issue — graph expansion in action
+![Graph expansion for compound issue] <img width="800" alt="image" src="https://github.com/user-attachments/assets/aab5a639-bca1-4c80-93cd-267bbad6fbf6" />
+### High-risk escalation
+![High risk escalation with signal breakdown] <img width="800" alt="image" src="https://github.com/user-attachments/assets/370109a1-57c4-4cfc-9e8d-5756877f62fb" />
 
 ## What I'd add with more time
 
