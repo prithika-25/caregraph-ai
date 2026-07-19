@@ -1,0 +1,100 @@
+[
+  {
+    "id": "kb001",
+    "title": "Refund processing timelines",
+    "content": "Refunds for cancelled orders are initiated within 24 hours of cancellation and reflect in the original payment method within 5-7 business days. Refunds to wallet are instant. Refunds for orders paid via COD are processed via bank transfer and require the customer's bank details.",
+    "tags": ["refund", "payment", "cancellation", "billing", "timeline"],
+    "category": "billing"
+  },
+  {
+    "id": "kb002",
+    "title": "Order cancellation policy",
+    "content": "Orders can be cancelled free of charge before they are shipped. Once shipped, cancellation is treated as a return and is subject to the return policy. Cancelling a subscription stops the next billing cycle but does not refund the current cycle.",
+    "tags": ["cancellation", "order", "subscription", "billing"],
+    "category": "orders"
+  },
+  {
+    "id": "kb003",
+    "title": "Payment failure troubleshooting",
+    "content": "Payment failures are commonly caused by insufficient balance, bank server timeouts, or incorrect OTP entry. If an amount was debited but the order shows as failed, the amount is auto-reversed within 5-7 business days as per the refund policy. Customers should avoid retrying payment more than twice within 10 minutes.",
+    "tags": ["payment", "failure", "refund", "billing", "technical"],
+    "category": "payments"
+  },
+  {
+    "id": "kb004",
+    "title": "Subscription plan upgrades and downgrades",
+    "content": "Plan upgrades take effect immediately with prorated billing for the remaining cycle. Downgrades take effect at the start of the next billing cycle to avoid mid-cycle feature loss. Enterprise plan changes require account manager approval.",
+    "tags": ["subscription", "billing", "plan", "upgrade"],
+    "category": "billing"
+  },
+  {
+    "id": "kb005",
+    "title": "Account lockout and password recovery",
+    "content": "Accounts are temporarily locked after 5 failed login attempts for 30 minutes. Password recovery links are valid for 15 minutes. Two-factor authentication reset requires identity verification via registered email and phone.",
+    "tags": ["account", "login", "security", "technical"],
+    "category": "account"
+  },
+  {
+    "id": "kb006",
+    "title": "Data export and account deletion",
+    "content": "Customers can export their data as a CSV or JSON archive from account settings, available within 24 hours of request. Account deletion is permanent after a 14-day grace period, during which the request can be reversed by logging back in.",
+    "tags": ["account", "data", "privacy", "deletion"],
+    "category": "account"
+  },
+  {
+    "id": "kb007",
+    "title": "Shipping delays and tracking",
+    "content": "Standard shipping takes 3-5 business days; delays beyond 7 days should be escalated to the logistics partner. Tracking updates may lag by up to 12 hours behind actual movement. Lost shipments are eligible for full refund or reshipment after a 3-day investigation window.",
+    "tags": ["shipping", "order", "delay", "logistics"],
+    "category": "orders"
+  },
+  {
+    "id": "kb008",
+    "title": "Return and exchange eligibility",
+    "content": "Items are eligible for return within 7 days of delivery if unused and in original packaging. Exchanges for size or color are processed as a return plus new order to avoid inventory mismatch. Return refunds follow the standard refund timeline.",
+    "tags": ["return", "exchange", "refund", "order"],
+    "category": "orders"
+  },
+  {
+    "id": "kb009",
+    "title": "Billing dispute and chargeback handling",
+    "content": "Customers disputing a charge should first raise it with support before initiating a bank chargeback, since chargebacks freeze the account pending resolution and can take 45-60 days. Legitimate disputes are refunded directly without needing a chargeback.",
+    "tags": ["billing", "dispute", "payment", "chargeback"],
+    "category": "billing"
+  },
+  {
+    "id": "kb010",
+    "title": "Service outage communication protocol",
+    "content": "During a confirmed service outage, status updates are posted every 30 minutes on the status page. Affected customers on paid plans are proactively credited a pro-rated amount for downtime exceeding 2 hours without needing to raise a ticket.",
+    "tags": ["technical", "outage", "billing", "communication"],
+    "category": "technical"
+  },
+  {
+    "id": "kb011",
+    "title": "API rate limit and integration errors",
+    "content": "Free tier API keys are limited to 60 requests per minute; Enterprise keys scale to 2000 requests per minute. 429 errors indicate rate limiting, not account suspension. Repeated integration failures should be checked against the API status page before escalation.",
+    "tags": ["technical", "api", "integration", "account"],
+    "category": "technical"
+  },
+  {
+    "id": "kb012",
+    "title": "Escalation and priority support criteria",
+    "content": "Tickets are escalated to Tier 2 when unresolved after 24 hours, or immediately for enterprise accounts, security concerns, or repeated billing errors. High-severity tickets receive a response within 1 hour during business hours.",
+    "tags": ["escalation", "support", "priority", "account"],
+    "category": "support"
+  },
+  {
+    "id": "kb013",
+    "title": "Loyalty credits and referral rewards",
+    "content": "Referral credits are applied after the referred customer's first successful payment, typically within 48 hours. Credits expire 12 months after issuance and cannot be combined with subscription discounts.",
+    "tags": ["loyalty", "billing", "referral", "credits"],
+    "category": "billing"
+  },
+  {
+    "id": "kb014",
+    "title": "Fraud and unauthorized transaction reporting",
+    "content": "Suspected unauthorized transactions should be reported immediately; the account is temporarily frozen pending investigation, typically resolved within 72 hours. Confirmed fraud cases are refunded in full and reported to the payment processor.",
+    "tags": ["fraud", "security", "payment", "account", "billing"],
+    "category": "security"
+  }
+]
